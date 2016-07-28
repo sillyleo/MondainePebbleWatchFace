@@ -1,13 +1,13 @@
 {
-    "author": "Leo Lin",
+    "author": "Johnny Lim",
     "dependencies": {},
     "keywords": [],
-    "name": "mondaine-square",
+    "name": "mondaine",
     "pebble": {
         "capabilities": [
             "configurable"
         ],
-        "displayName": "Mondaine Square",
+        "displayName": "Mondaine",
         "enableMultiJS": false,
         "messageKeys": {
             "bluetoothstatusdetection": 4,
@@ -20,21 +20,19 @@
         "resources": {
             "media": [
                 {
-                    "file": "images/resize_icon-mondaine-sbb-white_nl.png",
-                    "name": "IMAGE_MONDAINE_WHITENLBG",
-                    "targetPlatforms": null,
-                    "type": "png"
-                },
-                {
                     "file": "images/resize_icon-mondaine-sbb-white.png",
                     "name": "IMAGE_MONDAINE_WHITEBG",
                     "targetPlatforms": null,
                     "type": "png"
                 },
                 {
+                    "file": "images/resize_icon-mondaine-sbb-white_nl.png",
+                    "name": "IMAGE_MONDAINE_WHITENLBG",
+                    "type": "png"
+                },
+                {
                     "file": "images/resize_icon-mondaine-sbb-black_nl.png",
                     "name": "IMAGE_MONDAINE_BLACKNLBG",
-                    "targetPlatforms": null,
                     "type": "png"
                 },
                 {
@@ -66,10 +64,10 @@
             "aplite",
             "basalt"
         ],
-        "uuid": "4f0ffcb0-60fc-4f98-9b93-9e1858d0a983",
+        "uuid": "a70d8f01-e9bf-4c3a-8d4f-4b3d9dfa8ee2",
         "watchapp": {
             "watchface": true
         }
     },
-    "version": "1.0.0"
+    "version": "1.2.0"
 }
