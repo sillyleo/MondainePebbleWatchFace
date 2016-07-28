@@ -80,7 +80,7 @@ static void hands_update_proc(Layer *layer, GContext *ctx) {
       if (strcmp(configs.dialcolor, "white") == 0 || strcmp(configs.dialcolor, "white_nl") == 0) {
         graphics_context_set_fill_color(ctx, GColorDarkGray);
         graphics_context_set_stroke_color(ctx, GColorDarkGray);
-        text_layer_set_text_color(s_textlayer_date, GColorBlack);
+        text_layer_set_text_color(s_textlayer_date, GColorDarkGray);
       }
       else if (strcmp(configs.dialcolor, "black") == 0 || strcmp(configs.dialcolor, "black_nl") == 0) {
         graphics_context_set_fill_color(ctx, GColorWhite);
@@ -157,8 +157,8 @@ static void hands_update_proc(Layer *layer, GContext *ctx) {
     graphics_context_set_stroke_width(ctx, 3);
     #endif
       
-    int16_t second_hand_length = (bounds.size.w / 2) - 20;
-    int16_t second_hand_opp_length = 23;
+    int16_t second_hand_length = (bounds.size.w / 2) - 22;
+    int16_t second_hand_opp_length = 16;
      
     double second_angle = 0;
     
@@ -188,7 +188,7 @@ static void hands_update_proc(Layer *layer, GContext *ctx) {
     graphics_draw_line(ctx, second_hand_opp, center);
     
      // Second hand circle
-    graphics_fill_circle(ctx, second_hand, 7);
+    graphics_fill_circle(ctx, second_hand, 5);
     
     
     // Dot in the middle
