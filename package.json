@@ -1,0 +1,75 @@
+{
+    "author": "Leo Lin",
+    "dependencies": {},
+    "keywords": [],
+    "name": "mondaine-square",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "Mondaine Square",
+        "enableMultiJS": false,
+        "messageKeys": {
+            "bluetoothstatusdetection": 4,
+            "dateoption": 2,
+            "dialcolor": 0,
+            "hourlyvibration": 3,
+            "secondhandoption": 1
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/resize_icon-mondaine-sbb-white_nl.png",
+                    "name": "IMAGE_MONDAINE_WHITENLBG",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/resize_icon-mondaine-sbb-white.png",
+                    "name": "IMAGE_MONDAINE_WHITEBG",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/resize_icon-mondaine-sbb-black_nl.png",
+                    "name": "IMAGE_MONDAINE_BLACKNLBG",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/resize_icon-mondaine-sbb-black.png",
+                    "name": "IMAGE_MONDAINE_BLACKBG",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/mondaine_index.png",
+                    "menuIcon": true,
+                    "name": "IMAGE_MONDAINE_INDEX",
+                    "type": "png"
+                },
+                {
+                    "file": "images/bluetooth-disconnect.png",
+                    "name": "IMAGE_BLUETOOTHDISCONNECTED",
+                    "type": "png"
+                },
+                {
+                    "file": "images/bluetooth-connect.png",
+                    "name": "IMAGE_BLUETOOTHCONNECTED",
+                    "type": "png"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt"
+        ],
+        "uuid": "4f0ffcb0-60fc-4f98-9b93-9e1858d0a983",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
